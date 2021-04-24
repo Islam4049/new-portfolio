@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariful Islam</title>
+    <link rel="icon" href="assets/img-2.jpg">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,600|Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.goefogleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <script src="https://use.fontawesome.com/fbeca39ed0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="somt">
+    <div class="loadingWndo mx-auto" style="padding-top: 30vh;" id="loadWndo">
+        <div class="loadIo" >
+            <img class="mx-auto" src="./assets/Square-1s-200px.gif" alt="loadingIo">
+        </div>
+    </div>
+    <nav class="navBar">
+        <img class="logo" src="assets/logo3.jpg" alt="">
+
+        <i class="fa fa-th fa-2x" id="hider" aria-hidden="true"></i>
+    
+        <div class="menuBar hide">
+            <ul class="menuBarUL">
+                <li><a href="#" onClick="scrolAbout()">ABOUT</a></li>
+                <li><a href="#" onClick="ScrollToProjects()">PROJECTS</a></li>
+                <li><a href="#" onClick="ShowContacts()">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="myHero">
+        <div class="heroContainer">
+            <p class="intro heroCommon text-left"
+            data-aos="fade-down"
+            data-aos-delay="1400"
+            data-aos-duration="800">Hi! I'm</p>
+            <div class="myName text-center d-flex mx-auto">
+                <div class="heroText1 text-right"
+                data-aos="fade-down"
+                data-aos-duration="800"
+                data-aos-delay="1600">Ariful</div>
+                <div class="heroText2 text-left"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="1700">Islam</div>
+            </div>
+            <p 
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="1900"
+            class="subHero heroCommon text-right"> I'm a full-stack web developer</p>
+        </div>
+    </div>
+    <main>
+        <section class="abtMeGrdnt">
+            <div class="aboutMe" >
+                <div class="profileImage mx-auto" 
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <img class="roundIm myImg" src="assets/islamimgc.png" alt="">
+                </div>
+                <div class="aboutMeText mx-auto"
+                data-aos="fade-up"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <h2 class="specialFont">About Me</h2>
+                    <p class="aboutMeDes">
+                        Hi I'm Arif, A <span class="fntOrng">Full Stackweb Developer</span> with a background in Biology. I absolutely love being able to combine my knack for design and logic based problem solving to bring abstract ideas to functional and user friendly websites. I am passionate about programing with key interest in both designs and animations.                    
+                    </p>
+                    <p class="aboutMeDes">During my free time, i like to make video and photography <i class="fas fa-landscape"></i> accounts on youtube and facebook </p>
+                    <div class="myBtnClr button2" onClick="ShowStack()" style="min-width: 40%; max-width: 50%;">Read More</div>
+                </div>
+            </div>
+        </section>
+        <section class="abtMeGrdnt" id="devStacks">
+            <div class="row mx-auto " >
+                <div class="stackText mx-auto"
+                data-aos="fade-down"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <h2 class="specialFont">Development Stacks</h2>
+                    <p class="aboutMeDes">
+                        I started my webdevelopment journey back in 2020 when i took a course on advance webdevelopment where i was able to learn to make fully responsive website using <span class="fntOrng">HTMl-5 CSS-3</span>. 
+                        <br> I then completed a bootcamp in 2020 where i learned full stack Webdevelopment technologies such as <span class="fntOrng">REACT, MySql, MongoDB, Node js, Express , JAVASCRIPT, jquery. </span> 
+                        <br>I am also skilled in designing softwares such as<span class="fntOrng"> Photoshop</span> and <span class="fntOrng">Adobe Illustrator.</span>
+                    </p>
+                    
+                </div>
+                <div class="profileImage mt-5 mx-auto" 
+                data-aos="fade-up"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <div class="col-lg-11 mx-auto mt-5">
+                        <div class="stckSect col-lg-10 mx-auto mt-5">
+                            <img class="stackImg  mx-auto " src="assets/Html-logo.png" alt="">
+                            <img class="stackImg  mx-auto " src="assets/Css-logo.png" alt="">
+                            <img class="stackImg  mx-auto " src="assets/JavaScript-logo.png" alt="">
+                            <img class="stackImg  mx-auto " src="assets/React-logo.png" alt="">
+                            <img class="stackImg  mx-auto " src="assets/JQuery-logo.png" alt="">
+                        </div>
+                        <div class="stckSect col-lg-10 mx-auto">
+                            <img class="stackImg mx-auto" src="assets/Node-logo.png" alt="">
+                            <img class="stackImg mx-auto" src="assets/Mongo-logo.png" alt="">
+                            <img class="stackImg mx-auto" src="assets/MySql-logo.png" alt="">
+                            <img class="stackImg mx-auto" src="assets/PS-logo.png" alt="">
+                            <img class="stackImg mx-auto" src="assets/AI-logo.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- <section class="" id="">
+            <div class="jstCntCentre">
+                <h3 class="specialFont" style="font-size: 3rem;
+                color: grey; text-align: center;">Development Stack</h3>
+                <div class="stacksRow greyFont row mx-auto" 
+                >
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="50">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Html-logo.png" alt="">
+                        </div>
+                        <h5>HTML</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
+                    data-aos-delay="100">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Css-logo.png" alt="">
+                        </div>
+                        <h5>CSS</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    data-aos-delay="150">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/JavaScript-logo.png" alt="">
+                        </div>
+                        <h5>JAVASCRIPT</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1300"
+                    data-aos-delay="200">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/React-logo.png" alt="">
+                        </div>
+                        <h5>REACT</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                    data-aos-delay="250">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/JQuery-logo.png" alt="">
+                        </div>
+                        <h5>JQuery</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="300">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Node-logo.png" alt="">
+                        </div>
+                        <h5>Node Js</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1600"
+                    data-aos-delay="350">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Mongo-logo.png" alt="">
+                        </div>
+                        <h5>Mongo Db</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1700"
+                    data-aos-delay="400">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/MySql-logo.png" alt="">
+                        </div>
+                        <h5>My SQL</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1800"
+                    data-aos-delay="450">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/PS-logo.png" alt="">
+                        </div>
+                        <h5>Photoshop</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1900"
+                    data-aos-delay="500">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/AI-logo.png" alt="">
+                        </div>
+                        <h5>Adobe Illustrator</h5>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="" id="devProjects">
+            <div class="projWindow hide">
+                <div class="projWndMrg">
+                    <div class="d-flex justify-content-end">
+                        <i class="closeBtn fas fa-times" onClick="closeProjWnd()"></i>
+                    </div>
+                    <div class="row" id="pro1">
+                        <img src="assets/photo-1560169573-5ff6f7f35fe4.jfif" alt="ss" class="col-lg-6" style="width: 45%;">
+                        <div class="details1 col-lg-6" style="width: 45%;">
+                            <h2> Weather-Dashboard</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus, quis quos, a aliquid soluta animi possimus sunt asperiores natus quasi mollitia distinctio et hic ab earum repellat optio harum?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis odio repellat. Vero deserunt omnis repudiandae alias sunt, adipisci id at fugiat necessitatibus cumque! Quia similique quibusdam incidunt labore aliquam?</p>
+                            <div class="d-flex justify-content-center" style="width: 70%;">
+                                <a href="https://saramunir.github.io/Weather-Dashboard/" class="button2" style="width: 150px;">Live Demo</a>
+                                <a href="https://saramunir.github.io/Weather-Dashboard/" class="button2" style="width: 150px;">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="specialFont mt-5" style="text-align: center;">Projects</h3>
+            <div class="container">
+                <!-- projects -->
+                <div class="row" id="projectsSection">
+                    
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h3 class="specialFont footerHead" style="font-size: 2.5rem; color:royalblue; margin: 20px 0; height: 15vh;">Contact Me</h3>
+            <div class="socialLinks">
+                <div class="socialBox">
+                    <a href="https://github.com/islam4049" class="resLogo">
+                        <i class="fab fa-github fa-3x"></i>
+                        <p class="tooltiptext">Github</p>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <a href="https://linkedin.com/in/ariful-islam89" class="resLogo">
+                        <i class="fab fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                        <p class="tooltiptext">LinkedIn</p>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <a href="contact.html" class="resLogo">
+                        <i class="fas fa-envelope-square fa-3x"></i>
+                        <p class="tooltiptext">Email</p>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <a href="assets/newresume2021.pdf" download="resume-mdislam" class="resLogo">
+                        <i class="far fa-file fa-3x res1">
+                        </i>
+                        <p class="tooltiptext">Resume</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="copyRight">
+                <p>© 2021 by Ariful Islam</p>
+            </div>
+        </footer>
+    </main>
+    <!-- <div class="boxTest2"></div> -->
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

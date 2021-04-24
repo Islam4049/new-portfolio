@@ -1,0 +1,264 @@
+body {
+    position: relative;
+}
+header {
+    background-image: radial-gradient( rgba(42, 49, 59, 0.1), rgb(27, 27, 27) ), url(assets/71ffb47ffd504078956bc68966b485f5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hider{
+    opacity: .8;
+    padding: 10px;
+    color: coral;
+    border-radius: 60%;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    z-index: 100;
+}
+.navBar {
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menuBar {
+    background-image: linear-gradient(180deg, coral 40%, rgba(255, 127, 80, 0.512), rgba(255, 127, 80, 0));
+    /* background: rgba(0, 0, 0, 0.8); */
+    width:25%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.menuBarUL {
+    margin: 50px auto;
+    padding: 0;
+    text-align: end;
+}
+.menuBar ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuBar ul li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 30px 50px;
+    width: 100%;
+    transition: all ease .4s;
+}
+.menuBar ul li a:hover {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: coral;
+    box-shadow: 0 8px 6px -6px rgba(49, 33, 26, 0.897);
+    /* text-decoration: none; */
+}
+.logo {
+    width: 50px;
+}
+.justify-content-end {
+    text-align: end;
+}
+.navbar-dark .navbar-toggler {
+
+    border: none;
+}
+/* .nav-item {
+    padding: 15px;
+} */
+.navRow {
+    padding-top: 40px;
+}
+.navbar-toggler {
+    text-align: end;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+    color: coral;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.heroText {
+    color: white;
+    font-size: 70px;
+}
+main {
+    height: 100vh;
+    background-image: radial-gradient( rgba(42, 49, 59, 0.5), rgb(27, 27, 27) ), url(assets/maksym-zakharyak-6VBRu8jR8to-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.specialFont {
+    font-size: 40px;
+    color: coral;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.aboutMe {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.myBtnClr {
+    color: coral;
+    border: 2px solid coral ;
+    margin: 20px 0;
+    background: none;
+    transition: all ease .5s;
+} 
+.myBtnClr:hover 
+    {
+        color: white;
+        background: coral;
+        border: 2px solid coral ;
+
+    } 
+
+    .portfolioBackground {
+        height: 100vh;
+        background-image: radial-gradient( rgba(42, 49, 59, 0.5), rgb(27, 27, 27) ), url(assets/dan-farrell-FnR2U1lXsBQ-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .heroTextPortfolio {
+            color: white;
+    }
+    .headingPortfolio {
+        position: relative;
+        top: 40%;
+        left: 40%;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 53px;
+        color: coral;
+        
+    }
+    .card-body {
+        color: rgb(59, 59, 59);
+        text-align: center;
+    }
+    .card:hover {
+        /* background-color: #2EE59D; */
+        box-shadow: 0px 15px 20px rgba(7, 7, 7, 0.4);}
+    h5 {
+        color: coral;
+        font-weight: 500;
+    }
+    #portfolio {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .wrapper {
+        margin: 0 auto;
+    }
+    .row {
+        margin: 0;
+    }
+    .card {
+        margin: 20px;
+        transition: ease all .5s;
+    }
+    .card-img-top {
+        margin: 10px 0;
+    }
+    .contactBackground {
+        height: 50vh;
+        background-color: rgb(34, 34, 34);
+    }
+    .contactsForm {
+        height: 130vh;
+        background-image: radial-gradient( rgba(42, 49, 59, 0.5), rgb(27, 27, 27) ), url(assets/dan-farrell-FnR2U1lXsBQ-unsplash.jpg);
+        margin: 0 auto;
+        background-size: cover;
+    }
+    form {
+        /* width: 70%; */
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.814);
+        padding: 49px;
+        border-radius: 7px;
+        border: 2px solid coral;
+    }
+    .headingContact {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: coral;
+        margin: 3% 0;
+        /* margin-left: 15%; */
+    }
+    label {
+        color: black;
+    }
+    h4 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        font-style: italic;
+    }
+    footer {
+        background: black;
+        padding: 50px;
+        text-align: center;
+    }
+    .nav {
+        padding-left: 40px;
+    }
+    .socialLinks a i {
+        margin: 0 15px;
+        color: white;
+        transition: ease all .3s;
+    }
+    @keyframes bob {
+        0% {	
+            transform: rotate(0deg);
+        }
+        25% {	
+            transform: rotate(-45deg);
+        }
+        50% {	
+            transform: rotate(0deg);
+        }
+        75% {	
+            transform: rotate(45deg);
+        }
+        100% {		
+            transform: rotate(0deg);
+        }
+    }
+    .socialLinks a i:hover {
+        color: coral;
+        font-size: 4rem;
+        animation: bob .8s linear 1;
+    }
+    /* --------media Query-------- */
+@media only screen and (max-width: 550px) {
+    .menuBar {
+        width: 50%;
+    }
+    h1 {
+    font-size: 63px;
+    }
+    .heroText1 {
+        font-size: 80px;
+
+    }
+    .heroText2 {
+        top: 67px;
+
+    }
+
+}
